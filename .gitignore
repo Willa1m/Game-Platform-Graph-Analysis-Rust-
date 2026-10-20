@@ -1,0 +1,4 @@
+/target
+
+# Source data is from Statista and is not redistributed
+/data/*.xlsx
