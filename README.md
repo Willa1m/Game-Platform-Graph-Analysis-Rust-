@@ -70,6 +70,10 @@ Cargo.toml · Cargo.lock
 - Building edges for every pair of releases in the same year creates parallel edges. A weighted edge per platform pair would be a cleaner model.
 - The densest-subgraph step is a heuristic, not an exact algorithm. Goldberg's max-flow method, or greedy peeling, would be the next step.
 
+---
+
+*Documentation and repository cleanup were done with AI assistance (Claude Code); the project code and results are my own.*
+
 ## 中文说明
 
 这是 BU DS 210 课程（2024 年春季）的 Rust 期末项目。程序读取各游戏平台的发行数据：每个平台是一个节点，两个平台在同一年都有游戏发行时连一条边。
